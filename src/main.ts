@@ -2,7 +2,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
 import { AppModule } from './app/app.module';
 // My app styles
-import './less/styles.less';
+import '../public/less/styles.less';
 
 if (process.env.ENV === 'production') {
   enableProdMode();

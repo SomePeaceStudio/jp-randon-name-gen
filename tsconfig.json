@@ -9,5 +9,25 @@
     "removeComments": false,
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true
+  },
+  "compileOnSave": false,
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**"
+  ],
+  "files": [
+    "src/app/app.component.ts",
+    "src/app/app.module.ts",
+    "src/main.ts",
+    "src/polyfills.ts",
+    "src/vendor.ts",
+    "typings/globals/core-js/index.d.ts",
+    "typings/globals/jasmine/index.d.ts",
+    "typings/globals/node/index.d.ts",
+    "typings/index.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
   }
 }

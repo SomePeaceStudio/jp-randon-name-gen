@@ -14,7 +14,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['', '.js', '.ts', '.less']
+    extensions: ['', '.js', '.ts', '.less','.html']
   },
 
   module: {
@@ -38,7 +38,7 @@ module.exports = {
             'css?sourceMap!' +
             'less?sourceMap'
         )
-      }, 
+      },
       {
         test: /\.css$/,
         exclude: helpers.root('src', 'app'),
@@ -53,7 +53,6 @@ module.exports = {
   },
 
   plugins: [
-    // extractLESS,
     new webpack.optimize.CommonsChunkPlugin({
       name: ['app', 'vendor', 'polyfills']
     }),
