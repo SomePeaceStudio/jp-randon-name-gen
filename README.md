@@ -1,4 +1,4 @@
 # Random Japanese word generator
-This is random Japanese word generator for hiragana and katakana learning.
+This is a random Japanese word generator for hiragana and katakana learning.
 # HOW TO USE?
-Click the button or tap space-bar, to generate random Japanese word then write it in hiragana and katakana.
+Visit https://somepeacestudio.github.io/manatelpa/ and click the button or tap the space-bar to generate a random Japanese word, then write it in hiragana and katakana.
